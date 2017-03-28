@@ -1,11 +1,11 @@
 # Trie
 A simple trie in Golang
 
-This implementation is derived (not transcribed) from the Java in the excellent Algorithms by Robert Sedgewick and Kevin Wayne.
+This implementation is derived (not transcribed) from the Java version as detailed in the excellent [Algorithms](http://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne. I recommend this text without reservation. It is detailed, thorough, and very affordable.
 
 ## Usage
 
-If you would like to use this library
+If you would like to use this package, you may do something as follows. Please be aware this package may not be production ready and the implementation is incomplete.
 
 ```go
 package main
@@ -30,7 +30,6 @@ func main() {
 
 ```
 
-
 ```
 $ go run main.go
 # => [she shells]
@@ -39,3 +38,10 @@ $ go run main.go
 
 * Radix is hardcoded to 256 (ASCII)
 * Case-sensitive
+
+## TODO
+
+- [ ] Complete the GoDocs
+- [ ] Add pattern matching funcs
+
+
